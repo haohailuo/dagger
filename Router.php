@@ -69,10 +69,10 @@ class Router
     		$searches = array_keys($this->_patterns);
     		$replaces = array_values($this->_patterns);
 
-    		foreach ($this->_uris as $routePos => $value) {
+    		foreach ($this->_uris as $routePos => $route) {
     			// when met symbol ':', then replace it with assoc regex
-    			if (strpos($value, ':') !== false) {
-          			$route = str_replace($searches, $replaces, $value);
+    			if (strpos($route, ':') !== false) {
+          			$route = str_replace($searches, $replaces, $route);
         		}
     			
     			// The usage of delimiter "#" as follows. At this time the "/" will not be escaped!
