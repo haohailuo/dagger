@@ -3,7 +3,7 @@ Simple and restful php router.
 
 ### Install
 if you have Composer, just run 
-> composer require magiclyde/dagger
+> composer require magiclyde/dagger dev-master
 
 If you don't just install it by downloading the .ZIP file and extracting it to your project directory.
 
