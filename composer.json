@@ -1,0 +1,13 @@
+{
+	"name": "magiclyde/dagger",
+	"description": "Simple and restful php router.",
+	"keywords": ["router", "rest"],
+	"require": {
+		"php": ">=5.4.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"Dagger\\": ""
+		}
+	}
+}
